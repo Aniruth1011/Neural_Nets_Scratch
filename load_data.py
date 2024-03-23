@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 
 def get_data():
-    boston = pd.read_csv('BostonHousing.csv')
+    #boston = pd.read_csv('BostonHousing.csv')
 
     data_url = "http://lib.stat.cmu.edu/datasets/boston"
     raw_df = pd.read_csv(data_url, sep="\s+", skiprows=22, header=None)
